@@ -1,6 +1,6 @@
 import classes from "./Counter.module.css";
 import { useSelector, useDispatch } from "react-redux";
-import {CounterAction} from '../store/index'
+import {CounterAction} from '../store/counterSlice'
 
 const Counter = () => {
   // Component subscribing to the store to get accesss to state
